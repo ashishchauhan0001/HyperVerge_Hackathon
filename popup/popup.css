@@ -1,0 +1,65 @@
+body{
+  font-family: Arial, sans-serif;
+  background: linear-gradient(white,orange,white);
+  margin: 20px;
+}
+
+img{
+  height: 35px;
+  width: 35px;
+  margin: 5px 115px;
+}
+
+#time{
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  align-items: center;
+  display: block;
+  width: 120px;
+  margin: 10px 65px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 20%;
+  cursor: pointer;
+  color:blueviolet;
+}
+
+#start-timer-btn:hover{
+  background: rgb(190, 224, 139);
+}
+#reset-timer-btn:hover{
+  background: rgb(190, 224, 139);
+}
+#add-task-btn:hover{
+  background: rgb(190, 224, 139);
+}
+
+.task-row {
+  display: flex;
+  width: auto;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.task-delete {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-checkbox {
+  cursor: pointer;
+}

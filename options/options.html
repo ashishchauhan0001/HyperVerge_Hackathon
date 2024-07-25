@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="options.css" />
+    <title> Timer Extension Options</title>
+</head>
+<body>
+  <div class="main">
+    <h1>Timer Options</h1>
+    <label>
+        <h2>Default Time in Minutes (1 - 60):</h2>
+        <input id="time-option" type="number" min="1" max="60" value="25" />
+        <span id="error-message" class="hidden">Please enter a value between 1 and 60.</span>
+    </label>
+    <button id="save-btn">Save Options</button>
+    <div id="confirmation-message" class="hidden">Options saved successfully!</div>
+  </div>
+    <script src="options.js"></script>
+</body>
+</html>
